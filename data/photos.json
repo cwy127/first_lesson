@@ -1,0 +1,938 @@
+[
+  {
+    "id": "pt-01",
+    "title": "Portrait Study 01",
+    "category": "portrait",
+    "alt": "Portrait Study 01",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-02",
+    "title": "Portrait Study 02",
+    "category": "portrait",
+    "alt": "Portrait Study 02",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-03",
+    "title": "Portrait Study 03",
+    "category": "portrait",
+    "alt": "Portrait Study 03",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-04",
+    "title": "Portrait Study 04",
+    "category": "portrait",
+    "alt": "Portrait Study 04",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-05",
+    "title": "Portrait Study 05",
+    "category": "portrait",
+    "alt": "Portrait Study 05",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-06",
+    "title": "Portrait Study 06",
+    "category": "portrait",
+    "alt": "Portrait Study 06",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-07",
+    "title": "Portrait Study 07",
+    "category": "portrait",
+    "alt": "Portrait Study 07",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-08",
+    "title": "Portrait Study 08",
+    "category": "portrait",
+    "alt": "Portrait Study 08",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-09",
+    "title": "Portrait Study 09",
+    "category": "portrait",
+    "alt": "Portrait Study 09",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-10",
+    "title": "Portrait Study 10",
+    "category": "portrait",
+    "alt": "Portrait Study 10",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-11",
+    "title": "Portrait Study 11",
+    "category": "portrait",
+    "alt": "Portrait Study 11",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-12",
+    "title": "Portrait Study 12",
+    "category": "portrait",
+    "alt": "Portrait Study 12",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-13",
+    "title": "Portrait Study 13",
+    "category": "portrait",
+    "alt": "Portrait Study 13",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-14",
+    "title": "Portrait Study 14",
+    "category": "portrait",
+    "alt": "Portrait Study 14",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-15",
+    "title": "Portrait Study 15",
+    "category": "portrait",
+    "alt": "Portrait Study 15",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-16",
+    "title": "Portrait Study 16",
+    "category": "portrait",
+    "alt": "Portrait Study 16",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-17",
+    "title": "Portrait Study 17",
+    "category": "portrait",
+    "alt": "Portrait Study 17",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "pt-18",
+    "title": "Portrait Study 18",
+    "category": "portrait",
+    "alt": "Portrait Study 18",
+    "width": 1200,
+    "height": 1500,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-01",
+    "title": "Landscape Frame 01",
+    "category": "landscape",
+    "alt": "Landscape Frame 01",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-02",
+    "title": "Landscape Frame 02",
+    "category": "landscape",
+    "alt": "Landscape Frame 02",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-03",
+    "title": "Landscape Frame 03",
+    "category": "landscape",
+    "alt": "Landscape Frame 03",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-04",
+    "title": "Landscape Frame 04",
+    "category": "landscape",
+    "alt": "Landscape Frame 04",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-05",
+    "title": "Landscape Frame 05",
+    "category": "landscape",
+    "alt": "Landscape Frame 05",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-06",
+    "title": "Landscape Frame 06",
+    "category": "landscape",
+    "alt": "Landscape Frame 06",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-07",
+    "title": "Landscape Frame 07",
+    "category": "landscape",
+    "alt": "Landscape Frame 07",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-08",
+    "title": "Landscape Frame 08",
+    "category": "landscape",
+    "alt": "Landscape Frame 08",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-09",
+    "title": "Landscape Frame 09",
+    "category": "landscape",
+    "alt": "Landscape Frame 09",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-10",
+    "title": "Landscape Frame 10",
+    "category": "landscape",
+    "alt": "Landscape Frame 10",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-11",
+    "title": "Landscape Frame 11",
+    "category": "landscape",
+    "alt": "Landscape Frame 11",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-12",
+    "title": "Landscape Frame 12",
+    "category": "landscape",
+    "alt": "Landscape Frame 12",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-13",
+    "title": "Landscape Frame 13",
+    "category": "landscape",
+    "alt": "Landscape Frame 13",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-14",
+    "title": "Landscape Frame 14",
+    "category": "landscape",
+    "alt": "Landscape Frame 14",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-15",
+    "title": "Landscape Frame 15",
+    "category": "landscape",
+    "alt": "Landscape Frame 15",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-16",
+    "title": "Landscape Frame 16",
+    "category": "landscape",
+    "alt": "Landscape Frame 16",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-17",
+    "title": "Landscape Frame 17",
+    "category": "landscape",
+    "alt": "Landscape Frame 17",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ls-18",
+    "title": "Landscape Frame 18",
+    "category": "landscape",
+    "alt": "Landscape Frame 18",
+    "width": 1800,
+    "height": 1200,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-01",
+    "title": "Street Moment 01",
+    "category": "street",
+    "alt": "Street Moment 01",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-02",
+    "title": "Street Moment 02",
+    "category": "street",
+    "alt": "Street Moment 02",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-03",
+    "title": "Street Moment 03",
+    "category": "street",
+    "alt": "Street Moment 03",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-04",
+    "title": "Street Moment 04",
+    "category": "street",
+    "alt": "Street Moment 04",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-05",
+    "title": "Street Moment 05",
+    "category": "street",
+    "alt": "Street Moment 05",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-06",
+    "title": "Street Moment 06",
+    "category": "street",
+    "alt": "Street Moment 06",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-07",
+    "title": "Street Moment 07",
+    "category": "street",
+    "alt": "Street Moment 07",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-08",
+    "title": "Street Moment 08",
+    "category": "street",
+    "alt": "Street Moment 08",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-09",
+    "title": "Street Moment 09",
+    "category": "street",
+    "alt": "Street Moment 09",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-10",
+    "title": "Street Moment 10",
+    "category": "street",
+    "alt": "Street Moment 10",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-11",
+    "title": "Street Moment 11",
+    "category": "street",
+    "alt": "Street Moment 11",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-12",
+    "title": "Street Moment 12",
+    "category": "street",
+    "alt": "Street Moment 12",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-13",
+    "title": "Street Moment 13",
+    "category": "street",
+    "alt": "Street Moment 13",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-14",
+    "title": "Street Moment 14",
+    "category": "street",
+    "alt": "Street Moment 14",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-15",
+    "title": "Street Moment 15",
+    "category": "street",
+    "alt": "Street Moment 15",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-16",
+    "title": "Street Moment 16",
+    "category": "street",
+    "alt": "Street Moment 16",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-17",
+    "title": "Street Moment 17",
+    "category": "street",
+    "alt": "Street Moment 17",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "st-18",
+    "title": "Street Moment 18",
+    "category": "street",
+    "alt": "Street Moment 18",
+    "width": 1600,
+    "height": 1067,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-01",
+    "title": "Editorial Series 01",
+    "category": "editorial",
+    "alt": "Editorial Series 01",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-02",
+    "title": "Editorial Series 02",
+    "category": "editorial",
+    "alt": "Editorial Series 02",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-03",
+    "title": "Editorial Series 03",
+    "category": "editorial",
+    "alt": "Editorial Series 03",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-04",
+    "title": "Editorial Series 04",
+    "category": "editorial",
+    "alt": "Editorial Series 04",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-05",
+    "title": "Editorial Series 05",
+    "category": "editorial",
+    "alt": "Editorial Series 05",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-06",
+    "title": "Editorial Series 06",
+    "category": "editorial",
+    "alt": "Editorial Series 06",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-07",
+    "title": "Editorial Series 07",
+    "category": "editorial",
+    "alt": "Editorial Series 07",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-08",
+    "title": "Editorial Series 08",
+    "category": "editorial",
+    "alt": "Editorial Series 08",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-09",
+    "title": "Editorial Series 09",
+    "category": "editorial",
+    "alt": "Editorial Series 09",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-10",
+    "title": "Editorial Series 10",
+    "category": "editorial",
+    "alt": "Editorial Series 10",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-11",
+    "title": "Editorial Series 11",
+    "category": "editorial",
+    "alt": "Editorial Series 11",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-12",
+    "title": "Editorial Series 12",
+    "category": "editorial",
+    "alt": "Editorial Series 12",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-13",
+    "title": "Editorial Series 13",
+    "category": "editorial",
+    "alt": "Editorial Series 13",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-14",
+    "title": "Editorial Series 14",
+    "category": "editorial",
+    "alt": "Editorial Series 14",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-15",
+    "title": "Editorial Series 15",
+    "category": "editorial",
+    "alt": "Editorial Series 15",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-16",
+    "title": "Editorial Series 16",
+    "category": "editorial",
+    "alt": "Editorial Series 16",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-17",
+    "title": "Editorial Series 17",
+    "category": "editorial",
+    "alt": "Editorial Series 17",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  },
+  {
+    "id": "ed-18",
+    "title": "Editorial Series 18",
+    "category": "editorial",
+    "alt": "Editorial Series 18",
+    "width": 1500,
+    "height": 1000,
+    "assets": {
+      "thumbWebp": "assets/images/thumb/placeholder-thumb.webp",
+      "gridWebp": "assets/images/grid/placeholder-grid.webp",
+      "fullJpg": "assets/images/full/placeholder-full.jpg"
+    }
+  }
+]

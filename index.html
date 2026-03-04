@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chung Woo Young | Photo Portfolio</title>
+    <meta
+      name="description"
+      content="Editorial and commercial photography portfolio by Chung Woo Young."
+    />
+    <meta property="og:title" content="Chung Woo Young | Photo Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore selected works in portrait, landscape, and street photography."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.chungwooyoung.com/" />
+    <meta
+      property="og:image"
+      content="https://www.chungwooyoung.com/assets/images/full/og-cover.jpg"
+    />
+    <link rel="canonical" href="https://www.chungwooyoung.com/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-mark">CWY</span>
+          <span class="brand-name" data-site-name>Chung Woo Young</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#gallery">Gallery</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow" data-site-location>Seoul, South Korea</p>
+        <h1 id="hero-title" data-site-tagline>
+          Visual stories crafted through light, texture, and precise framing.
+        </h1>
+        <p class="hero-copy">
+          A curated selection of portrait, landscape, and street photography projects.
+        </p>
+        <a class="hero-cta" href="#gallery">View selected work</a>
+      </section>
+
+      <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-head">
+          <h2 id="gallery-title">Selected Work</h2>
+          <p>Filter by category and open any frame in a full-view lightbox.</p>
+        </div>
+
+        <div class="filter-wrap" aria-label="Category filters">
+          <div class="filter-list" role="tablist" data-filter-list></div>
+        </div>
+
+        <div class="gallery-grid" data-gallery-grid aria-live="polite"></div>
+
+        <button class="load-more" type="button" data-load-more hidden>
+          Load more
+        </button>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p>
+          <span data-site-name-inline>Chung Woo Young</span> is a photographer based in
+          <span data-site-location-inline>Seoul, South Korea</span>, focused on human presence,
+          atmospheric landscapes, and quiet moments in motion.
+        </p>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <ul>
+          <li>
+            Email:
+            <a data-contact-email href="mailto:hello@chungwooyoung.com">hello@chungwooyoung.com</a>
+          </li>
+          <li>
+            Instagram:
+            <a data-contact-instagram href="https://instagram.com/chungwooyoung" target="_blank" rel="noreferrer noopener">
+              @chungwooyoung
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <div
+      class="lightbox"
+      data-lightbox
+      role="dialog"
+      aria-modal="true"
+      aria-label="Image viewer"
+      hidden
+    >
+      <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image viewer">
+        ×
+      </button>
+      <button class="lightbox-nav prev" type="button" data-lightbox-prev aria-label="Previous image">
+        ‹
+      </button>
+      <figure class="lightbox-figure">
+        <picture>
+          <source type="image/webp" data-lightbox-webp />
+          <img data-lightbox-image alt="" decoding="async" />
+        </picture>
+        <figcaption>
+          <strong data-lightbox-title></strong>
+          <span data-lightbox-meta></span>
+        </figcaption>
+      </figure>
+      <button class="lightbox-nav next" type="button" data-lightbox-next aria-label="Next image">
+        ›
+      </button>
+    </div>
+
+    <div class="toast" data-toast aria-live="polite" hidden></div>
+
+    <noscript>
+      <p class="noscript-msg">This portfolio requires JavaScript to load the gallery.</p>
+    </noscript>
+
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>

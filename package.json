@@ -1,0 +1,13 @@
+{
+  "name": "first_lesson",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static photography portfolio for GitHub Pages",
+  "scripts": {
+    "prepare:images": "node scripts/prepare-images.mjs",
+    "check": "node --check assets/js/app.js && node --check scripts/prepare-images.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.34.4"
+  }
+}
