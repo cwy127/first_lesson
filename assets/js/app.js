@@ -11,6 +11,7 @@ const els = {
   siteTagline: document.querySelector("[data-site-tagline]"),
   siteLocation: document.querySelector("[data-site-location]"),
   siteLocationInline: document.querySelector("[data-site-location-inline]"),
+  siteLocationSecondary: document.querySelector("[data-site-location-secondary]"),
   contactEmail: document.querySelector("[data-contact-email]"),
   contactInstagram: document.querySelector("[data-contact-instagram]"),
   filterList: document.querySelector("[data-filter-list]"),
@@ -97,6 +98,7 @@ function applySiteConfig(site) {
   if (els.siteNameInline) els.siteNameInline.textContent = name;
   if (els.siteLocation) els.siteLocation.textContent = location;
   if (els.siteLocationInline) els.siteLocationInline.textContent = location;
+  if (els.siteLocationSecondary) els.siteLocationSecondary.textContent = location;
   if (els.siteTagline) els.siteTagline.textContent = tagline;
 
   if (els.contactEmail) {
