@@ -7,6 +7,7 @@ const FALLBACK_IMAGES = {
 
 const els = {
   siteName: document.querySelector("[data-site-name]"),
+  siteNameMain: document.querySelector("[data-site-name-main]"),
   siteNameInline: document.querySelector("[data-site-name-inline]"),
   siteTagline: document.querySelector("[data-site-tagline]"),
   siteLocation: document.querySelector("[data-site-location]"),
@@ -95,6 +96,7 @@ function applySiteConfig(site) {
   const instagram = site.instagram || "https://instagram.com/chungwooyoung";
 
   if (els.siteName) els.siteName.textContent = name;
+  if (els.siteNameMain) els.siteNameMain.textContent = name;
   if (els.siteNameInline) els.siteNameInline.textContent = name;
   if (els.siteLocation) els.siteLocation.textContent = location;
   if (els.siteLocationInline) els.siteLocationInline.textContent = location;
