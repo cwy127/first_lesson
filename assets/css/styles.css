@@ -165,19 +165,67 @@ section {
   color: #fff;
 }
 
-.hero-media {
+.quad-wrap {
   margin-top: 1.45rem;
-  border: 1px solid var(--line);
-  background: var(--panel);
+  width: min(100%, 960px);
+  aspect-ratio: 1;
+  background: #151515;
   animation: fade-up 640ms ease-out both;
 }
 
-.hero-media img {
-  display: block;
+.quad {
   width: 100%;
-  height: clamp(280px, 56vh, 650px);
-  object-fit: cover;
-  filter: grayscale(1) contrast(1.03);
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.quad-tile {
+  position: relative;
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  background: #222;
+  text-decoration: none;
+  outline-offset: -3px;
+}
+
+.quad-frame {
+  position: absolute;
+  inset: 0;
+  background-color: #2f3133;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  transform: scale(1.002);
+  transition: opacity 1050ms cubic-bezier(0.33, 0, 0.2, 1),
+    transform 1500ms cubic-bezier(0.33, 0, 0.2, 1);
+}
+
+.quad-frame.is-fading {
+  opacity: 0;
+  transform: scale(1.018);
+}
+
+.quad-caption {
+  position: absolute;
+  left: 0.85rem;
+  bottom: 0.72rem;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: clamp(0.57rem, 1.1vw, 0.72rem);
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 220ms ease;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+}
+
+.quad-tile:hover .quad-caption,
+.quad-tile:focus-visible .quad-caption {
+  opacity: 1;
 }
 
 .section-head h2,
@@ -469,8 +517,13 @@ section {
     font-size: clamp(2.4rem, 14vw, 4rem);
   }
 
-  .hero-media img {
-    height: clamp(220px, 40vh, 340px);
+  .quad-wrap {
+    width: 100%;
+  }
+
+  .quad-caption {
+    left: 0.5rem;
+    bottom: 0.45rem;
   }
 
   .filter-wrap {

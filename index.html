@@ -26,7 +26,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Sora:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/styles.css?v=20260313b" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=20260828a" />
   </head>
   <body>
     <header class="site-header" id="top">
@@ -55,8 +55,30 @@
           </span>
         </p>
         <a class="hero-cta" href="#gallery">View Works</a>
-        <div class="hero-media" aria-hidden="true">
-          <img src="assets/images/full/og-cover.jpg" alt="" loading="eager" decoding="async" />
+        <div
+          class="quad-wrap"
+          data-quad
+          role="region"
+          aria-label="Selected work, changing image sequence"
+        >
+          <div class="quad">
+            <a class="quad-tile" data-quad-tile href="#gallery" aria-label="View selected works">
+              <span class="quad-frame" data-quad-frame aria-hidden="true"></span>
+              <span class="quad-caption" data-quad-caption></span>
+            </a>
+            <a class="quad-tile" data-quad-tile href="#gallery" aria-label="View selected works">
+              <span class="quad-frame" data-quad-frame aria-hidden="true"></span>
+              <span class="quad-caption" data-quad-caption></span>
+            </a>
+            <a class="quad-tile" data-quad-tile href="#gallery" aria-label="View selected works">
+              <span class="quad-frame" data-quad-frame aria-hidden="true"></span>
+              <span class="quad-caption" data-quad-caption></span>
+            </a>
+            <a class="quad-tile" data-quad-tile href="#gallery" aria-label="View selected works">
+              <span class="quad-frame" data-quad-frame aria-hidden="true"></span>
+              <span class="quad-caption" data-quad-caption></span>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -138,6 +160,6 @@
       <p class="noscript-msg">This portfolio requires JavaScript to load the gallery.</p>
     </noscript>
 
-    <script type="module" src="assets/js/app.js?v=20260313b"></script>
+    <script type="module" src="assets/js/app.js?v=20260828a"></script>
   </body>
 </html>

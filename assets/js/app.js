@@ -5,6 +5,23 @@ const FALLBACK_IMAGES = {
   fullJpg: "assets/images/full/placeholder-full.jpg",
 };
 
+const QUAD_WORKS = [
+  { label: "Editorial / No. 01", background: "radial-gradient(circle at 58% 34%, #e5b7aa 0 7%, transparent 8%), radial-gradient(ellipse at 58% 49%, #c68779 0 19%, transparent 20%), linear-gradient(134deg, #d9d0c4 0 38%, #725a52 39% 61%, #111 62%)" },
+  { label: "Beauty / No. 02", background: "radial-gradient(ellipse at 47% 39%, #efc6b5 0 18%, transparent 19%), linear-gradient(100deg, #16201e 0 28%, #94766c 29% 57%, #d6d0c9 58%)" },
+  { label: "Still Life / No. 03", background: "radial-gradient(circle at 52% 48%, rgba(255,255,255,.86) 0 12%, rgba(147,170,164,.78) 13% 27%, transparent 28%), linear-gradient(145deg, #2e4946, #b6c1b8 54%, #5b5d56)" },
+  { label: "Fashion / No. 04", background: "linear-gradient(70deg, transparent 0 38%, #d6b1a3 39% 46%, #272523 47% 61%, transparent 62%), linear-gradient(140deg, #ded8cf, #7c7069 54%, #171717)" },
+  { label: "Campaign / No. 05", background: "radial-gradient(ellipse at 49% 40%, #d5a294 0 15%, transparent 16%), linear-gradient(20deg, transparent 0 42%, #b4afa6 43% 58%, transparent 59%), linear-gradient(130deg, #342b29, #d3c4b6)" },
+  { label: "Object / No. 06", background: "radial-gradient(ellipse at 51% 52%, #9b251d 0 17%, #d17468 18% 28%, transparent 29%), linear-gradient(140deg, #e1d6c7 0 48%, #3d2a25 49%)" },
+  { label: "Portrait / No. 07", background: "radial-gradient(ellipse at 55% 42%, #d7a897 0 17%, transparent 18%), linear-gradient(82deg, #171817 0 35%, #9b8278 36% 58%, #d8d2c8 59%)" },
+  { label: "Editorial / No. 08", background: "linear-gradient(155deg, transparent 0 39%, #d3a797 40% 47%, #161615 48% 63%, transparent 64%), linear-gradient(45deg, #827e73, #ded6ca 55%, #3d3a36)" },
+  { label: "Beauty / No. 09", background: "radial-gradient(circle at 46% 39%, #e6b8a8 0 13%, transparent 14%), radial-gradient(ellipse at 48% 57%, #25201f 0 22%, transparent 23%), linear-gradient(125deg, #c3b6aa, #45413d)" },
+  { label: "Still Life / No. 10", background: "radial-gradient(circle at 52% 54%, rgba(226,230,219,.9) 0 16%, rgba(76,99,87,.85) 17% 31%, transparent 32%), linear-gradient(115deg, #151b18, #7f958b 51%, #c3b7a3)" },
+  { label: "Fashion / No. 11", background: "linear-gradient(105deg, transparent 0 31%, #d5a695 32% 42%, #232220 43% 63%, transparent 64%), linear-gradient(150deg, #d8d3cb, #595651 54%, #181818)" },
+  { label: "Campaign / No. 12", background: "radial-gradient(ellipse at 57% 39%, #c98f80 0 15%, transparent 16%), linear-gradient(30deg, transparent 0 39%, #e4ddd1 40% 54%, transparent 55%), linear-gradient(130deg, #1d2423, #8a746c 53%, #d7cec1)" },
+];
+
+const currentQuadIndexes = [0, 3, 6, 9];
+
 const els = {
   siteName: document.querySelector("[data-site-name]"),
   siteNameMain: document.querySelector("[data-site-name-main]"),
@@ -27,6 +44,7 @@ const els = {
   lightboxImage: document.querySelector("[data-lightbox-image]"),
   lightboxTitle: document.querySelector("[data-lightbox-title]"),
   lightboxMeta: document.querySelector("[data-lightbox-meta]"),
+  quadTiles: Array.from(document.querySelectorAll("[data-quad-tile]")),
 };
 
 const state = {
@@ -39,6 +57,47 @@ const state = {
   previousFocus: null,
   toastShown: false,
 };
+
+function renderQuadTile(tileIndex, workIndex) {
+  const tile = els.quadTiles[tileIndex];
+  const work = QUAD_WORKS[workIndex];
+  if (!tile || !work) return;
+  const frame = tile.querySelector("[data-quad-frame]");
+  const caption = tile.querySelector("[data-quad-caption]");
+  frame.style.backgroundImage = work.background;
+  caption.textContent = work.label;
+  tile.setAttribute("aria-label", `${work.label}. View selected works`);
+}
+
+function chooseNextQuadIndex() {
+  const available = QUAD_WORKS.map((_, index) => index).filter(
+    (index) => !currentQuadIndexes.includes(index)
+  );
+  return available[Math.floor(Math.random() * available.length)];
+}
+
+function scheduleQuadCycle(tileIndex) {
+  const tile = els.quadTiles[tileIndex];
+  if (!tile) return;
+  const frame = tile.querySelector("[data-quad-frame]");
+  const delay = 4200 + Math.random() * 4200 + tileIndex * 650;
+
+  window.setTimeout(() => {
+    frame.classList.add("is-fading");
+    window.setTimeout(() => {
+      const nextIndex = chooseNextQuadIndex();
+      currentQuadIndexes[tileIndex] = nextIndex;
+      renderQuadTile(tileIndex, nextIndex);
+      frame.classList.remove("is-fading");
+      scheduleQuadCycle(tileIndex);
+    }, 1080);
+  }, delay);
+}
+
+function initQuad() {
+  els.quadTiles.forEach((tile, index) => renderQuadTile(index, currentQuadIndexes[index]));
+  els.quadTiles.forEach((tile, index) => scheduleQuadCycle(index));
+}
 
 function slugify(value) {
   return String(value || "")
@@ -461,6 +520,7 @@ function bindEvents() {
 async function init() {
   try {
     enforceCanonicalHost();
+    initQuad();
 
     const [site, photosRaw] = await Promise.all([
       fetchJson("data/site.json"),
