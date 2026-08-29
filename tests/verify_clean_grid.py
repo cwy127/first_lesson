@@ -92,12 +92,15 @@ wait_for_cards()
 
 desktop = evaluate("""(() => ({
   cards: document.querySelectorAll('.photo-card').length,
-  columns: getComputedStyle(document.querySelector('.photo-grid')).columnCount,
+  pages: document.querySelectorAll('.grid-page').length,
+  firstPageCards: document.querySelector('.grid-page').children.length,
+  columns: getComputedStyle(document.querySelector('.grid-page')).gridTemplateColumns.split(' ').length,
+  rows: getComputedStyle(document.querySelector('.grid-page')).gridTemplateRows.split(' ').length,
   portrait: document.querySelectorAll('.is-portrait').length,
   landscape: document.querySelectorAll('.is-landscape').length,
   horizontalOverflow: document.documentElement.scrollWidth > innerWidth,
   background: getComputedStyle(document.body).backgroundColor,
-  frame: getComputedStyle(document.querySelector('.photo-card')).paddingTop,
+  fit: getComputedStyle(document.querySelector('.photo-card img')).objectFit,
 }))()""")
 desktop_shot = screenshot("chungwooyoung-clean-grid-desktop.png")
 
@@ -116,7 +119,9 @@ time.sleep(1)
 wait_for_cards()
 mobile = evaluate("""(() => ({
   cards: document.querySelectorAll('.photo-card').length,
-  columns: getComputedStyle(document.querySelector('.photo-grid')).columnCount,
+  firstPageCards: document.querySelector('.grid-page').children.length,
+  columns: getComputedStyle(document.querySelector('.grid-page')).gridTemplateColumns.split(' ').length,
+  rows: getComputedStyle(document.querySelector('.grid-page')).gridTemplateRows.split(' ').length,
   horizontalOverflow: document.documentElement.scrollWidth > innerWidth,
   cardWidth: document.querySelector('.photo-card').getBoundingClientRect().width,
   headerHeight: document.querySelector('.site-header').getBoundingClientRect().height,
@@ -124,16 +129,22 @@ mobile = evaluate("""(() => ({
 mobile_shot = screenshot("chungwooyoung-clean-grid-mobile.png")
 
 assert desktop["cards"] == 72, desktop
-assert desktop["columns"] == "3", desktop
+assert desktop["pages"] == 5, desktop
+assert desktop["firstPageCards"] == 15, desktop
+assert desktop["columns"] == 5, desktop
+assert desktop["rows"] == 3, desktop
 assert desktop["portrait"] == 18, desktop
 assert desktop["landscape"] == 54, desktop
 assert not desktop["horizontalOverflow"], desktop
-assert desktop["background"] == "rgb(241, 241, 239)", desktop
+assert desktop["background"] == "rgb(255, 255, 255)", desktop
+assert desktop["fit"] == "contain", desktop
 assert lightbox["open"], lightbox
 assert lightbox["caption"], lightbox
 assert lightbox["image"], lightbox
 assert mobile["cards"] == 72, mobile
-assert mobile["columns"] == "3", mobile
+assert mobile["firstPageCards"] == 15, mobile
+assert mobile["columns"] == 3, mobile
+assert mobile["rows"] == 5, mobile
 assert not mobile["horizontalOverflow"], mobile
 assert mobile["cardWidth"] > 110, mobile
 

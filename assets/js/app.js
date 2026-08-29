@@ -37,6 +37,13 @@ function renderGallery(items) {
   const fragment = document.createDocumentFragment();
 
   items.forEach((photo, index) => {
+    if (index % 15 === 0) {
+      const page = document.createElement('section');
+      page.className = 'grid-page';
+      page.setAttribute('aria-label', `Works page ${Math.floor(index / 15) + 1}`);
+      fragment.append(page);
+    }
+
     const button = document.createElement('button');
     button.type = 'button';
     button.className = `photo-card is-${orientation(photo)}`;
@@ -61,7 +68,7 @@ function renderGallery(items) {
     media.append(image);
     button.append(media, number);
     button.addEventListener('click', () => openLightbox(index));
-    fragment.append(button);
+    fragment.lastElementChild.append(button);
   });
 
   grid.append(fragment);
