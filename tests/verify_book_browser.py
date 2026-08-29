@@ -1,6 +1,5 @@
 import base64
 import json
-import os
 import time
 import urllib.request
 from pathlib import Path
@@ -8,7 +7,7 @@ from pathlib import Path
 import websocket
 
 DEBUG = "http://127.0.0.1:9226"
-PAGE_URL = os.environ.get("BOOK_PREVIEW_URL", "http://127.0.0.1:8766/")
+PAGE_URL = "http://127.0.0.1:8766/"
 OUT = Path(r"C:\Users\user\AppData\Local\hermes\cache\artifacts")
 OUT.mkdir(parents=True, exist_ok=True)
 
