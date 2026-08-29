@@ -3,163 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chung Woo Young | Photo Portfolio</title>
-    <meta
-      name="description"
-      content="Editorial and commercial photography portfolio by Chung Woo Young."
-    />
-    <meta property="og:title" content="Chung Woo Young | Photo Portfolio" />
-    <meta
-      property="og:description"
-      content="Explore selected works in portrait, landscape, and street photography."
-    />
+    <title>Chung Woo Young | Photography</title>
+    <meta name="description" content="Selected photography by Chung Woo Young." />
+    <meta property="og:title" content="Chung Woo Young | Photography" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.chungwooyoung.com/" />
-    <meta
-      property="og:image"
-      content="https://www.chungwooyoung.com/assets/images/full/og-cover.jpg"
-    />
+    <meta property="og:image" content="https://www.chungwooyoung.com/assets/images/full/og-cover.jpg" />
     <link rel="canonical" href="https://www.chungwooyoung.com/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Sora:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/styles.css?v=20260828a" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=book-prototype-1" />
   </head>
-  <body>
-    <header class="site-header" id="top">
-      <div class="header-inner">
-        <a class="brand" href="#top" aria-label="Go to top">
-          <span class="brand-mark">CWY</span>
-          <span class="brand-name" data-site-name>Chung Woo Young</span>
-        </a>
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#gallery">Works</a>
-          <a href="#about">Info</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
-    </header>
+  <body data-view="cover">
+    <main class="portfolio-stage" aria-live="polite">
+      <header class="identity" data-identity>
+        <p class="identity-role">Photographer · Seoul</p>
+        <h1 data-site-name-main>Chung Woo Young</h1>
+      </header>
 
-    <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <p class="hero-label">Photographer</p>
-        <h1 id="hero-title" data-site-name-main>Chung Woo Young</h1>
-        <p class="hero-meta">
-          <span data-site-location>Seoul, South Korea</span>
-          <span aria-hidden="true"> / </span>
-          <span data-site-tagline>
-            Visual stories crafted through light, texture, and precise framing.
+      <section class="cover-scene" data-cover-scene aria-label="Portfolio cover">
+        <button class="book-cover" type="button" data-open-book aria-label="Open Chung Woo Young portfolio">
+          <span class="cover-edge" aria-hidden="true"></span>
+          <span class="cover-copy">
+            <span class="cover-title" data-site-name>Chung Woo Young</span>
+            <span class="cover-subtitle">Selected Photographs</span>
+            <span class="cover-year">Portfolio · MMXXVI</span>
           </span>
-        </p>
-        <a class="hero-cta" href="#gallery">View Works</a>
-        <div
-          class="quad-wrap"
-          data-quad
-          role="region"
-          aria-label="Selected work, changing image sequence"
-        >
-          <div class="quad">
-            <a class="quad-tile" data-quad-tile href="#gallery" aria-label="View selected works">
-              <span class="quad-frame" data-quad-frame aria-hidden="true"></span>
-              <span class="quad-caption" data-quad-caption></span>
-            </a>
-            <a class="quad-tile" data-quad-tile href="#gallery" aria-label="View selected works">
-              <span class="quad-frame" data-quad-frame aria-hidden="true"></span>
-              <span class="quad-caption" data-quad-caption></span>
-            </a>
-            <a class="quad-tile" data-quad-tile href="#gallery" aria-label="View selected works">
-              <span class="quad-frame" data-quad-frame aria-hidden="true"></span>
-              <span class="quad-caption" data-quad-caption></span>
-            </a>
-            <a class="quad-tile" data-quad-tile href="#gallery" aria-label="View selected works">
-              <span class="quad-frame" data-quad-frame aria-hidden="true"></span>
-              <span class="quad-caption" data-quad-caption></span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="gallery" id="gallery" aria-labelledby="gallery-title">
-        <div class="section-head">
-          <h2 id="gallery-title">Works</h2>
-          <p>Filter by category and open any frame in a full-view lightbox.</p>
-        </div>
-
-        <div class="filter-wrap" aria-label="Category filters">
-          <div class="filter-list" role="tablist" data-filter-list></div>
-        </div>
-
-        <div class="gallery-grid" data-gallery-grid aria-live="polite"></div>
-
-        <button class="load-more" type="button" data-load-more hidden>
-          Load more
+          <span class="cover-prompt">Open</span>
         </button>
       </section>
 
-      <section class="about" id="about" aria-labelledby="about-title">
-        <h2 id="about-title">Info</h2>
-        <p>
-          <span data-site-name-inline>Chung Woo Young</span> is a photographer based in
-          <span data-site-location-inline>Seoul, South Korea</span>, focused on human presence,
-          atmospheric landscapes, and quiet moments in motion.
-        </p>
-      </section>
+      <section class="book-view" data-book-view aria-label="Selected works" aria-hidden="true">
+        <button class="book-nav book-nav-prev" type="button" data-book-prev aria-label="Previous pages">
+          <span aria-hidden="true">←</span>
+        </button>
 
-      <section class="contact" id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">Contact</h2>
-        <ul>
-          <li>
-            Email:
-            <a data-contact-email href="mailto:hello@chungwooyoung.com">hello@chungwooyoung.com</a>
-          </li>
-          <li>
-            Instagram:
-            <a data-contact-instagram href="https://instagram.com/chungwooyoung" target="_blank" rel="noreferrer noopener">
-              @chungwooyoung
-            </a>
-          </li>
-        </ul>
+        <div class="book-area">
+          <div class="book" data-book>
+            <div class="book-shadow" aria-hidden="true"></div>
+            <article class="paper-page paper-left" data-page-left aria-label="Left portfolio page"></article>
+            <span class="book-gutter" aria-hidden="true"></span>
+            <article class="paper-page paper-right" data-page-right aria-label="Right portfolio page"></article>
+            <div class="turning-sheet" data-turning-sheet aria-hidden="true">
+              <div class="turn-face turn-front"></div>
+              <div class="turn-face turn-back"></div>
+            </div>
+          </div>
+
+          <div class="book-status">
+            <button type="button" class="return-cover" data-return-cover>Cover</button>
+            <span data-page-status>01 / 01</span>
+            <button type="button" class="open-info" data-open-info>Info</button>
+          </div>
+        </div>
+
+        <button class="book-nav book-nav-next" type="button" data-book-next aria-label="Next pages">
+          <span aria-hidden="true">→</span>
+        </button>
       </section>
     </main>
 
-    <div
-      class="lightbox"
-      data-lightbox
-      role="dialog"
-      aria-modal="true"
-      aria-label="Image viewer"
-      hidden
-    >
-      <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image viewer">
-        ×
-      </button>
-      <button class="lightbox-nav prev" type="button" data-lightbox-prev aria-label="Previous image">
-        ‹
-      </button>
+    <div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+      <button class="overlay-close" type="button" data-lightbox-close aria-label="Close image viewer">Close</button>
+      <button class="lightbox-arrow lightbox-prev" type="button" data-lightbox-prev aria-label="Previous image">←</button>
       <figure class="lightbox-figure">
         <picture>
           <source type="image/webp" data-lightbox-webp />
           <img data-lightbox-image alt="" decoding="async" />
         </picture>
         <figcaption>
-          <strong data-lightbox-title></strong>
+          <span data-lightbox-title></span>
           <span data-lightbox-meta></span>
         </figcaption>
       </figure>
-      <button class="lightbox-nav next" type="button" data-lightbox-next aria-label="Next image">
-        ›
-      </button>
+      <button class="lightbox-arrow lightbox-next" type="button" data-lightbox-next aria-label="Next image">→</button>
+    </div>
+
+    <div class="info-panel" data-info-panel role="dialog" aria-modal="true" aria-labelledby="info-title" hidden>
+      <button class="overlay-close" type="button" data-close-info>Close</button>
+      <div class="info-copy">
+        <p class="info-kicker">Info</p>
+        <h2 id="info-title" data-site-name-inline>Chung Woo Young</h2>
+        <p>
+          Photographer based in <span data-site-location>Seoul, South Korea</span>, focused on human presence,
+          light, material, and precise visual rhythm.
+        </p>
+        <dl>
+          <div><dt>Email</dt><dd><a data-contact-email href="mailto:hello@chungwooyoung.com">hello@chungwooyoung.com</a></dd></div>
+          <div><dt>Instagram</dt><dd><a data-contact-instagram href="https://instagram.com/chungwooyoung" target="_blank" rel="noreferrer noopener">@chungwooyoung</a></dd></div>
+        </dl>
+      </div>
     </div>
 
     <div class="toast" data-toast aria-live="polite" hidden></div>
-
-    <noscript>
-      <p class="noscript-msg">This portfolio requires JavaScript to load the gallery.</p>
-    </noscript>
-
-    <script type="module" src="assets/js/app.js?v=20260828a"></script>
+    <noscript><p class="noscript-msg">JavaScript is required to open this portfolio.</p></noscript>
+    <script type="module" src="assets/js/app.js?v=book-prototype-1"></script>
   </body>
 </html>
